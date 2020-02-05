@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="roborodney" name="laserPublisher" type="laserPublisher" />
+	<node pkg="roborodney" name="bno055" type="bno055"/>
+	<node pkg="roborodney" name="robotDriver" type="robotDriver" />
+	<node pkg="roborodney" name="servoDriver" type="servoDriver" />
+	<node pkg="roborodney" name="scanOkolice" type="scanOkolice" />
+	<node pkg="roborodney" name="scanSlike" type="scanSlike" />
+	<node pkg="roborodney" name="senzorLevoDesno" type="senzorLevoDesno" />
+	<node pkg="roborodney" name="voznja_auto" type="voznja_auto" output="screen"/>
+</launch>

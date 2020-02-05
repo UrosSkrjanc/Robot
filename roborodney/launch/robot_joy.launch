@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="roborodney" name="voznja_joy" type="voznja_joy" output="screen"/>
+	<node pkg="roborodney" name="robotDriver" type="robotDriver"/>
+	<node pkg="joy" name="joy_node" type="joy_node"/>
+	<node pkg="roborodney" name="cameraThruWeb" type="cameraThruWeb.py"/>
+</launch>
